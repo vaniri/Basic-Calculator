@@ -1,5 +1,35 @@
 /* Select all spans that are immediate children of buttons */
 
 button>span {
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+
+.btn {
+    width: 20%;
+}
+
+.card-body {
+  
+}
+
+.btn-primary {
+    background-color: #4831D4;
+    color: rgb(206, 201, 201);
+}
+.btn-dark {
+    background-color: #EF5455;
+    color: #4831D4;;
+    border: solid 0.1rem #4831D4;;
+}
+    
+
+.btn-danger {
+    background-color: #CCF381;
+    color:  #2F3C7E;
+    border: solid 0.1rem rgb(92, 73, 214);
+}
+.btn-success {
+    background-color: #EF5455;
+    color:  #CCF381;
+
 }
