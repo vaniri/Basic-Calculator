@@ -1,5 +1,19 @@
-/* Select all spans that are immediate children of buttons */
+body {
+    background-image: url("image/cup-of-coffee-1280537_1920.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(6, 6, 6);
+}
 
+.container {
+margin: auto;
+margin-top: 100px;
+padding: 1rem;
+justify-content: center;
+opacity: 0.9;
+}
+
+/* Select all spans that are immediate children of buttons */
 button>span {
     font-size: 2rem;
 }
@@ -8,28 +22,33 @@ button>span {
     width: 20%;
 }
 
-.card-body {
-  
-}
-
 .btn-primary {
     background-color: #4831D4;
-    color: rgb(206, 201, 201);
+    color: white;
 }
 .btn-dark {
-    background-color: #EF5455;
-    color: #4831D4;;
-    border: solid 0.1rem #4831D4;;
+    color: white;
 }
-    
 
 .btn-danger {
-    background-color: #CCF381;
+    background-color: rgb(192, 191, 191);
     color:  #2F3C7E;
     border: solid 0.1rem rgb(92, 73, 214);
 }
-.btn-success {
-    background-color: #EF5455;
-    color:  #CCF381;
 
+.btn-success {
+    background-color: rgb(255, 94, 0);
+    border-color: rgb(255, 94, 0); 
+}
+
+/* .jumbotron {
+    padding: 0.5rem;
+    background-color: rgb(92, 73, 214);
+    color: #CCF381;
+} */
+
+.card-header {
+   background-color: rgb(255, 94, 0);
+   opacity: 0.8;
+   color: white
 }
