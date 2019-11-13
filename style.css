@@ -6,14 +6,21 @@ body {
 }
 
 .container {
-margin: auto;
-margin-top: 100px;
-padding: 1rem;
-justify-content: center;
-opacity: 0.9;
+    margin-right: 30px; 
+    margin-top: 100px;
+    padding: 1rem;
+    justify-content: center;
+    opacity: 0.9;
 }
 
-/* Select all spans that are immediate children of buttons */
+.card-body {
+    background-image: url("image/abstract-730128_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: 0.9;
+}
+
+
 button>span {
     font-size: 2rem;
 }
@@ -41,14 +48,12 @@ button>span {
     border-color: rgb(255, 94, 0); 
 }
 
-/* .jumbotron {
-    padding: 0.5rem;
-    background-color: rgb(92, 73, 214);
-    color: #CCF381;
-} */
-
 .card-header {
    background-color: rgb(255, 94, 0);
    opacity: 0.8;
    color: white
+}
+
+#result {
+    padding-left: 20px;
 }
